@@ -1,0 +1,103 @@
+main {
+	min-height: 80vh;
+}
+#Container{
+	margin-left: 0px;
+
+}
+h3 {
+	padding: 1rem 0;
+}
+
+h1 {
+	font-size: 1.8rem;
+	padding: 1rem 0;
+}
+
+h2 {
+	font-size: 1.4rem;
+	padding: 0.5rem 0;
+}
+
+.rating span {
+	margin: 0.1rem;
+}
+
+.StripeElement {
+	height: 40px;
+	padding: 10px 12px;
+	width: 100%;
+	color: #32325d;
+	background-color: white;
+	border: 1px solid transparent;
+	border-radius: 4px;
+
+	box-shadow: 0 1px 3px 0 #e6ebf1;
+	-webkit-transition: box-shadow 150ms ease;
+	transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+	box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+	border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+	background-color: #fefde5 !important;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+	display: flex;
+}
+.carousel-caption {
+	position: absolute;
+	top: 0;
+}
+
+.carousel-caption h2 {
+	color: #fff;
+}
+
+.carousel img {
+	height: 300px;
+	padding: 30px;
+	margin: 40px;
+	border-radius: 50%;
+}
+.carousel a {
+	margin: 0 auto;
+}
+
+.like-center {
+	text-align: center;
+}
+.ccc{
+	padding-left: -200px;
+}
+.cardimg{
+	height: 200px;
+	width: 50px;
+	border-radius: 20px;
+}
+.proimg{
+	border-radius: 20px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+@media (max-width: 767.98px) { .collapse{
+	margin: 20px;
+}
+.search{
+	margin-top: 10px;
+} }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }

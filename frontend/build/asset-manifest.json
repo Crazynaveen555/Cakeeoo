@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.37211ac4.css",
+    "main.js": "/static/js/main.8bcd62a0.js",
+    "static/media/wp3980262-cake-wallpapers.jpg": "/static/media/wp3980262-cake-wallpapers.575551a58080e6ff638e.jpg",
+    "index.html": "/index.html",
+    "main.37211ac4.css.map": "/static/css/main.37211ac4.css.map",
+    "main.8bcd62a0.js.map": "/static/js/main.8bcd62a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37211ac4.css",
+    "static/js/main.8bcd62a0.js"
+  ]
+}
