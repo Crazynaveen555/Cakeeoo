@@ -1,0 +1,43 @@
+{
+  "name": "Cakeoo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend && npm install",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d",
+    "hero": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Crazynaveen555/cake1"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Crazynaveen555/cake1"
+  },
+  "homepage": "https://github.com/Crazynaveen555/cake1",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "stripe": "^8.109.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
